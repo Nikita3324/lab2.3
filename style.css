@@ -42,14 +42,16 @@
     height: 450px;
     margin-left: 30%;
     margin-right: 30%;
-    margin-top: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 .text1{
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
     font-family: "Tw Cen MT", sans-serif;
     margin-left: 30px;
-    margin-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 7px;
 }
 .text2{
     font-size: 23px;
@@ -60,11 +62,10 @@
     margin-left: 2%;
     padding-left: 1px;
 }
-.text3{
-    margin-left: 51%;
-    margin-top: -3.8%;
-    float: left;
-    font-size: 17px;
+}
+.signup{
+    text-decoration: none;
+}
 }
 .text4{
     margin-left: 55%;
@@ -88,9 +89,8 @@ font-size: 23px;
 position: relative;
 font-weight: bold;
 font-family: "Tw Cen MT", sans-serif;
-margin-top: -6%;
-margin-left: 2%;
-padding-left: 1px;
+    margin-top: 15px;
+    margin-left: 20%;
 }
 .TEXT{
     margin-left: 10%;
@@ -137,7 +137,7 @@ padding-left: 1px;
     font-weight: lighter;
     font-family: "Tw Cen MT", sans-serif;
 }
-.login{
+.login {
     position: relative;
     background: #637bad;
     font-size: 15px;
@@ -146,9 +146,10 @@ padding-left: 1px;
     border: 1px solid #29447e;
     border-radius: 1px;
     height: 33px;
-    width: 69px;
+    width: 70px;
     cursor: pointer;
     font-family: Arial, sans-serif;
     margin-top: -5px;
     margin-left: 39.6%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
